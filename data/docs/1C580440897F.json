@@ -1,0 +1,69 @@
+{
+ "ref": "1C580440897F",
+ "refDisplay": "1C58 0 440 897F",
+ "title": "BRAS ARTICULATION RELEVAGE ASSISE",
+ "nature": "",
+ "applicability": "(K00Z) C4 PICASSO BREAK LOISIRS DIESEL TURBO DV6C BVM PILOTEE 6 RAPPORTS OU (K00V) C4 PICASSO BREAK LOISIRS DIESEL TURBO DV6C BVM PILOTEE 6 RAPPORTS STT OU (K00U) C4 PICASSO BREAK LOISIRS DIESEL TURBO DV6C BVM6",
+ "typDoc": "6",
+ "css": [
+  "css/Document/baremes.css",
+  "css/Document/common.css"
+ ],
+ "usedBy": [
+  {
+   "ldp": "1C58",
+   "variantKey": "B0D=B0DCL&B0F=B0FBM",
+   "fctId": "FCT0224"
+  },
+  {
+   "ldp": "1C58",
+   "variantKey": "B0D=B0DCL&B0F=B0FQ2",
+   "fctId": "FCT0224"
+  },
+  {
+   "ldp": "1C58",
+   "variantKey": "B0D=B0DCL&B0F=B0F9W",
+   "fctId": "FCT0224"
+  },
+  {
+   "ldp": "1C58",
+   "variantKey": "B0D=B0DCL&B0F=B0FAW",
+   "fctId": "FCT0224"
+  },
+  {
+   "ldp": "1C58",
+   "variantKey": "B0D=B0DCL&B0F=B0FCC",
+   "fctId": "FCT0224"
+  },
+  {
+   "ldp": "1C58",
+   "variantKey": "B0D=B0DCL&B0F=B0FCA",
+   "fctId": "FCT0224"
+  },
+  {
+   "ldp": "1C58",
+   "variantKey": "B0D=B0DCL&B0F=B0FAY",
+   "fctId": "FCT0224"
+  },
+  {
+   "ldp": "1C58",
+   "variantKey": "B0D=B0DCL&B0F=B0FPA",
+   "fctId": "FCT0224"
+  },
+  {
+   "ldp": "1C58",
+   "variantKey": "B0D=B0DCL&B0F=B0F9Q",
+   "fctId": "FCT0224"
+  },
+  {
+   "ldp": "1C58",
+   "variantKey": "B0D=B0DCL&B0F=B0FBB",
+   "fctId": "FCT0224"
+  },
+  {
+   "ldp": "1C58",
+   "variantKey": "B0D=B0DCL&B0F=B0FAT",
+   "fctId": "FCT0224"
+  }
+ ]
+}

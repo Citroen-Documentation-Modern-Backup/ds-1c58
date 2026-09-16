@@ -1,0 +1,28 @@
+{
+ "ref": "056001335670C",
+ "refDisplay": "0560 01 335670C",
+ "title": "ACTIONNEUR BOITE DE VITESSES PILOTEE",
+ "nature": "",
+ "applicability": "BVM PILOTEE 6 RAPPORTS",
+ "typDoc": "1",
+ "css": [
+  "css/Document/pr.css"
+ ],
+ "usedBy": [
+  {
+   "ldp": "1C58",
+   "variantKey": "B0D=B0DAF&B0F=B0FAT",
+   "fctId": "FCT0017"
+  },
+  {
+   "ldp": "1C58",
+   "variantKey": "B0D=B0DC5&B0F=B0FAT",
+   "fctId": "FCT0017"
+  },
+  {
+   "ldp": "1C58",
+   "variantKey": "B0D=B0DCL&B0F=B0FAT",
+   "fctId": "FCT0017"
+  }
+ ]
+}

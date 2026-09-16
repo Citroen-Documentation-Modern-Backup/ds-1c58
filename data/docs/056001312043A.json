@@ -1,0 +1,28 @@
+{
+ "ref": "056001312043A",
+ "refDisplay": "0560 01 312043A",
+ "title": "EMBRAYAGE - MECANISME - DISQUE - BUTEE",
+ "nature": "",
+ "applicability": "ML6C",
+ "typDoc": "1",
+ "css": [
+  "css/Document/pr.css"
+ ],
+ "usedBy": [
+  {
+   "ldp": "1C58",
+   "variantKey": "B0D=B0DAF&B0F=B0F9Q",
+   "fctId": "FCT0016"
+  },
+  {
+   "ldp": "1C58",
+   "variantKey": "B0D=B0DC5&B0F=B0F9Q",
+   "fctId": "FCT0016"
+  },
+  {
+   "ldp": "1C58",
+   "variantKey": "B0D=B0DCL&B0F=B0F9Q",
+   "fctId": "FCT0016"
+  }
+ ]
+}

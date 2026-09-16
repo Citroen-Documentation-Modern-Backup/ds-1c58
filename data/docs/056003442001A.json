@@ -1,0 +1,43 @@
+{
+ "ref": "056003442001A",
+ "refDisplay": "0560 03 442001A",
+ "title": "CREMAILLERE DIRECTION",
+ "nature": "",
+ "applicability": "CONDUITE A GAUCHE",
+ "typDoc": "1",
+ "css": [
+  "css/Document/pr.css"
+ ],
+ "usedBy": [
+  {
+   "ldp": "1C58",
+   "variantKey": "B0D=B0DAF&B0F=B0FPA",
+   "fctId": "FCT0037"
+  },
+  {
+   "ldp": "1C58",
+   "variantKey": "B0D=B0DAF&B0F=B0FPA",
+   "fctId": "FCT0339"
+  },
+  {
+   "ldp": "1C58",
+   "variantKey": "B0D=B0DC5&B0F=B0FPA",
+   "fctId": "FCT0037"
+  },
+  {
+   "ldp": "1C58",
+   "variantKey": "B0D=B0DC5&B0F=B0FPA",
+   "fctId": "FCT0339"
+  },
+  {
+   "ldp": "1C58",
+   "variantKey": "B0D=B0DCL&B0F=B0FPA",
+   "fctId": "FCT0037"
+  },
+  {
+   "ldp": "1C58",
+   "variantKey": "B0D=B0DCL&B0F=B0FPA",
+   "fctId": "FCT0339"
+  }
+ ]
+}

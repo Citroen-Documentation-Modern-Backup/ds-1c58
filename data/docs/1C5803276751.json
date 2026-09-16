@@ -1,0 +1,39 @@
+{
+ "ref": "1C5803276751",
+ "refDisplay": "1C58 0 327 6751",
+ "title": "HAYON ET PANNEAU DE COTE PARTIE AR",
+ "nature": "",
+ "applicability": "(K003) C4 PICASSO BREAK LOISIRS DIESEL TURBO DV6TED4 SANS FAP BVM5",
+ "typDoc": "6",
+ "css": [
+  "css/Document/baremes.css",
+  "css/Document/common.css"
+ ],
+ "usedBy": [
+  {
+   "ldp": "1C58",
+   "variantKey": "B0D=B0DCL&B0F=B0FQ2",
+   "fctId": "FCT0117"
+  },
+  {
+   "ldp": "1C58",
+   "variantKey": "B0D=B0DCL&B0F=B0F9W",
+   "fctId": "FCT0117"
+  },
+  {
+   "ldp": "1C58",
+   "variantKey": "B0D=B0DCL&B0F=B0FPA",
+   "fctId": "FCT0117"
+  },
+  {
+   "ldp": "1C58",
+   "variantKey": "B0D=B0DCL&B0F=B0F9Q",
+   "fctId": "FCT0117"
+  },
+  {
+   "ldp": "1C58",
+   "variantKey": "B0D=B0DCL&B0F=B0FAT",
+   "fctId": "FCT0117"
+  }
+ ]
+}

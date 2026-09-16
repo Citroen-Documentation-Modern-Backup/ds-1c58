@@ -1,0 +1,28 @@
+{
+ "ref": "056001121051A",
+ "refDisplay": "0560 01 121051A",
+ "title": "VILEBREQUIN",
+ "nature": "",
+ "applicability": "BVM BE4R JUSQU’A OPR 11584",
+ "typDoc": "1",
+ "css": [
+  "css/Document/pr.css"
+ ],
+ "usedBy": [
+  {
+   "ldp": "1C58",
+   "variantKey": "B0D=B0DAF&B0F=B0F9W",
+   "fctId": "FCT0005"
+  },
+  {
+   "ldp": "1C58",
+   "variantKey": "B0D=B0DC5&B0F=B0F9W",
+   "fctId": "FCT0005"
+  },
+  {
+   "ldp": "1C58",
+   "variantKey": "B0D=B0DCL&B0F=B0F9W",
+   "fctId": "FCT0005"
+  }
+ ]
+}

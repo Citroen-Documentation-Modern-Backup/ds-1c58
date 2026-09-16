@@ -1,0 +1,428 @@
+<div id="title" class="section_titre"><table class="refDoc"><tbody><tr><td colspan="2" class="references">D6AM01FHP0</td><td class="title">Télécodage : Boîtier télématique RT3 - RT4 - RT5</td></tr></tbody></table></div><div id="appl" class="section_appl"></div><div class="section_corps" id="content"><div class="cha1"><a name="LABEL1"></a><div class="sti1">1. Véhicule concerné</div></div>
+<div class="par">CITROËN C4 PICASSO.</div><div class="par">À partir de la version de télémise à jour Diagbox 7.09.</div><div class="tli">Liste des boîtiers télématiques : 
+<ul>
+<li>RT3 : Pour les boîtiers télématiques dont la version logiciel du boîtier télématique est égale à 6.x</li>
+<li>RT4 : Pour les boîtiers télématiques dont la version logiciel du boîtier télématique est égale à 7.x</li>
+<li>RT5 : Pour les boîtiers télématiques dont la version logiciel du boîtier télématique est égale à 8.x</li>
+</ul>
+</div>
+<div class="cha1"><a name="LABEL41"></a><div class="sti1">2. Sommaire</div></div>
+<div class="par"><a href="#LABEL42" class="lienHyperTexte">Consignes de sécurité</a> <img src="img/images/Document/info.avif" align="bottom" border="0" hspan="5"> .</div><div class="par"><a href="#LABEL4" class="lienHyperTexte">Opérations préliminaires</a> <img src="img/images/Document/info.avif" align="bottom" border="0" hspan="5"> .</div><div class="tli"><a href="#LABEL5" class="lienHyperTexte">Télécodage</a> <img src="img/images/Document/info.avif" align="bottom" border="0" hspan="5">  : 
+<ul>
+<li><a href="#LABEL61" class="lienHyperTexte">Télécodage par internet</a> <img src="img/images/Document/info.avif" align="bottom" border="0" hspan="5"> </li>
+<li><a href="#LABEL38" class="lienHyperTexte">Procédure à effectuer après le télécodage</a> <img src="img/images/Document/info.avif" align="bottom" border="0" hspan="5"> </li>
+</ul>
+</div>
+<div class="tli"><a href="#LABEL40" class="lienHyperTexte">Tableaux de télécodage</a> <img src="img/images/Document/info.avif" align="bottom" border="0" hspan="5">  : 
+<ul>
+<li><a href="#LABEL59" class="lienHyperTexte">Configuration du code VIN</a> <img src="img/images/Document/info.avif" align="bottom" border="0" hspan="5"> </li>
+<li><a href="#LABEL62" class="lienHyperTexte">Configuration des options client</a> <img src="img/images/Document/info.avif" align="bottom" border="0" hspan="5"> </li>
+<li><a href="#LABEL63" class="lienHyperTexte">Configuration des options d’affichage</a> <img src="img/images/Document/info.avif" align="bottom" border="0" hspan="5"> </li>
+<li><a href="#LABEL64" class="lienHyperTexte">Configuration du menu de personnalisation</a> <img src="img/images/Document/info.avif" align="bottom" border="0" hspan="5"> </li>
+<li><a href="#LABEL56" class="lienHyperTexte">Configuration du juke-box</a> <img src="img/images/Document/info.avif" align="bottom" border="0" hspan="5"> </li>
+<li><a href="#LABEL65" class="lienHyperTexte">Activation des services d’urgence et d’assistance</a> <img src="img/images/Document/info.avif" align="bottom" border="0" hspan="5"> </li>
+<li><a href="#LABEL66" class="lienHyperTexte">Configuration des autres services</a> <img src="img/images/Document/info.avif" align="bottom" border="0" hspan="5"> </li>
+</ul>
+</div>
+<div class="cha1"><a name="LABEL42"></a><div class="sti1">3. Consignes de sécurité</div></div>
+<div class="par">L’opération de télécodage est une opération sensible qui a des conséquences directes sur le bon fonctionnement du véhicule.</div><div class="tli">Un mauvais télécodage peut avoir des impacts sur : 
+<ul>
+<li>La sécurité (Désactivation des dispositifs de protection du véhicule)</li>
+<li>Le fonctionnement global du véhicule (perte complète de fonctions du véhicule ou dégradation de celles-ci)</li>
+<li>Le diagnostic du véhicule (Remontée de code défauts pouvant mettre en échec les méthodes de diagnostic de l’outil et conduire à des remplacements de pièces injustifiées)</li>
+</ul>
+</div>
+<div class="tli">Avant toute tentative de démarrage du moteur : 
+<ul>
+<li>Contrôler que le frein de stationnement est activé</li>
+<li>En présence d’une boîte de vitesses automatique, contrôler que le levier de vitesses est en position "P " (Park)</li>
+<li>En présence d’une boîte de vitesses manuelle, contrôler que le levier de vitesses est au point mort</li>
+</ul>
+</div>
+<div class="cha1"><a name="LABEL4"></a><div class="sti1">4. Opérations préliminaires</div></div>
+<div class="tli">Avant toute intervention : 
+<ul>
+<li>Établir la communication avec le calculateur ; À l’aide d’un outil de diagnostic</li>
+<li>Imprimer l’ensemble des écrans de l’outil de diagnostic indiquant les valeurs des paramètres de télécodage, ou noter ces valeurs manuellement</li>
+</ul>
+</div>
+<div class="cha1"><a name="LABEL5"></a><div class="sti1">5. Télécodage</div></div>
+<div class="rem"><div class="att"><span class="maj">ATTENTION</span> : Après tout remplacement de calculateur, il est nécessaire de télécoder les numéros de téléphone des services. </div></div>
+<div class="tli">À la question "Le client a-t-il refusé les services d’appel d’urgence et d’assistance localisés? ", répondre par : 
+<ul>
+<li>NON si le client a souscrit à un contrat d’appel d’urgence</li>
+<li>OUI si le client n’a pas souscrit à un contrat d’appel d’urgence</li>
+</ul>
+</div>
+<div class="rem"><div class="att"><span class="maj">ATTENTION</span> : Ne pas débrancher ni éteindre l’outil de diagnostic pendant la procédure. </div></div>
+<div class="rem"><div class="not"><span class="maj">NOTA</span> : Il faut compter alors 7 à 8 minutes d’attente avant la fin de la procédure. </div></div>
+<div class="tli">En cas de télécodage du calculateur : 
+<ul>
+<li>Établir la communication avec le calculateur</li>
+<li>Effectuer le télécodage par internet</li>
+<li>Vérifier le télécodage</li>
+</ul>
+</div>
+<div class="tli">En cas de remplacement d’un calculateur : 
+<ul>
+<li>Monter le nouveau calculateur</li>
+<li>Établir la communication avec le calculateur</li>
+<li>Effectuer le télécodage par internet</li>
+<li>Vérifier le télécodage</li>
+<li>Effectuer les opérations d’apprentissage (Si nécessaire)</li>
+</ul>
+</div>
+<div class="cha2"><a name="LABEL61"></a><div class="sti2">5.1. Télécodage par internet</div></div>
+<div class="par">Effectuer le télécodage par internet.</div><div class="rem"><div class="att"><span class="maj">ATTENTION</span> : Si le télécodage par internet ne fonctionne pas (présence d’un message à l’outil indiquant le code erreur associé à la phrase "il est inutile de renouveler l’opération"), effectuer un télécodage manuel en remplacement du télécodage par internet (se reporter aux tableaux de télécodage). </div></div>
+<div class="cha2"><a name="LABEL38"></a><div class="sti2">5.2. Procédure à effectuer après le télécodage</div></div>
+<div class="par">Contrôler et reprendre si nécessaire les paramètres suite au télécodage par internet.</div><div class="cha1"><a name="LABEL40"></a><div class="sti1">6. Tableaux de télécodage</div></div>
+<div class="tli">Après avoir sélectionné le menu "télécodage manuel", les paramètres suivants sont disponibles : 
+<ul>
+<li><a href="#LABEL59" class="lienHyperTexte">Configuration du code VIN</a> <img src="img/images/Document/info.avif" align="bottom" border="0" hspan="5"> </li>
+<li><a href="#LABEL62" class="lienHyperTexte">Configuration des options client</a> <img src="img/images/Document/info.avif" align="bottom" border="0" hspan="5"> </li>
+<li><a href="#LABEL63" class="lienHyperTexte">Configuration des options d’affichage</a> <img src="img/images/Document/info.avif" align="bottom" border="0" hspan="5"> </li>
+<li><a href="#LABEL64" class="lienHyperTexte">Configuration du menu de personnalisation</a> <img src="img/images/Document/info.avif" align="bottom" border="0" hspan="5"> </li>
+<li><a href="#LABEL56" class="lienHyperTexte">Configuration du juke-box</a> <img src="img/images/Document/info.avif" align="bottom" border="0" hspan="5"> </li>
+<li><a href="#LABEL65" class="lienHyperTexte">Activation des services d’urgence et d’assistance</a> <img src="img/images/Document/info.avif" align="bottom" border="0" hspan="5"> </li>
+<li><a href="#LABEL66" class="lienHyperTexte">Configuration des autres services</a> <img src="img/images/Document/info.avif" align="bottom" border="0" hspan="5"> </li>
+</ul>
+</div>
+<div class="cha2"><a name="LABEL59"></a><div class="sti2">6.1. Configuration du code VIN</div></div>
+<div class="tableau">
+<table class="tableauAC">
+<thead><tr><th class="tete" colspan="4">Configuration du code VIN</th></tr></thead>
+<tbody><tr valign="top"><td colspan="1" rowspan="1"></td>
+<td colspan="1" rowspan="1">Paramètre à télécoder</td>
+<td colspan="1" rowspan="1">Valeurs à télécoder</td>
+<td colspan="1" rowspan="1">Commentaires</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1"></td>
+<td colspan="1" rowspan="1">Numéro de série du véhicule - Code VIN</td>
+<td colspan="1" rowspan="1">Code VIN du véhicule (17 caractères alphanumériques)</td>
+<td colspan="1" rowspan="1">(2)<br>Contrôler que le code VIN affiché correspond bien au code VIN du véhicule, sinon le corriger</td>
+</tr></tbody></table>
+</div>
+<div class="par">(1) À télécoder selon équipement.</div><div class="par">(2) Télécodage d’une autre valeur interdit.</div><div class="par">(3) Paramètre télécodé automatiquement lors de la procédure de "choix du plan de maintenance".</div><div class="par">(4) Paramètres à contrôler systématiquement après un télécodage par internet.</div><div class="cha2"><a name="LABEL62"></a><div class="sti2">6.2. Configuration des options client</div></div>
+<div class="tableau">
+<table class="tableauAC">
+<thead><tr><th class="tete" colspan="4">Configuration des options client</th></tr></thead>
+<tbody><tr valign="top"><td colspan="1" rowspan="1"></td>
+<td colspan="1" rowspan="1">Paramètre à télécoder</td>
+<td colspan="1" rowspan="1">Valeurs à télécoder</td>
+<td colspan="1" rowspan="1">Commentaires</td>
+</tr><tr valign="top"><td colspan="1" rowspan="3"></td>
+<td colspan="1" rowspan="3">Aide au stationnement<br>(Paramètre disponible à partir de la version logicielle 6.5 du boîtier télématique)</td>
+<td colspan="1" rowspan="1">Absente</td>
+<td colspan="1" rowspan="1">(1)<br>Sans aide au stationnement</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Présente arrière</td>
+<td colspan="1" rowspan="1">(1)<br>Avec aide au stationnement arrière (Présence de capteurs de proximité dans le pare-chocs)</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Présente avant et arrière</td>
+<td colspan="1" rowspan="1">(1)<br>Avec aide au stationnement avant et arrière (Présence de capteurs de proximité dans les pare-chocs)</td>
+</tr><tr valign="top"><td colspan="1" rowspan="2"></td>
+<td colspan="1" rowspan="2">Liaison coussins gonflables filaire (appel d’urgence filaire)<br>(Paramètre disponible à partir de la version logicielle 6.5 du boîtier télématique)</td>
+<td colspan="1" rowspan="1">Sans liaison filaire</td>
+<td colspan="1" rowspan="2">(1)<br>Activer cette fonction uniquement lorsqu’il y a un lien filaire (hors réseau CAN) entre le boîtier télématique RT4/RT5 et le calculateur coussins gonflables et prétensionneurs</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Avec liaison filaire</td>
+</tr><tr valign="top"><td colspan="1" rowspan="2"></td>
+<td colspan="1" rowspan="2">Changeur CD<br>(Paramètre disponible à partir de la version logicielle 6.5 du boîtier télématique)</td>
+<td colspan="1" rowspan="1">Absent </td>
+<td colspan="1" rowspan="2">(1)<br>Contrôler l’absence ou la présence du changeur CD dans le véhicule (coffre, boîte à gants, façade tableau de bord, sous le siège passager)</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Présent</td>
+</tr><tr valign="top"><td colspan="1" rowspan="2"></td>
+<td colspan="1" rowspan="2">Clavier de commande déportée<br>(Paramètre disponible à partir de la version logicielle 6.5 du boîtier télématique)</td>
+<td colspan="1" rowspan="1">Absent </td>
+<td colspan="1" rowspan="2">(1)<br>Contrôler l’absence ou la présence d’un clavier de commande déportée dans le véhicule (Commande récepteur télématique)</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Présent</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1"></td>
+<td colspan="1" rowspan="1">Climatisation <br>(Paramètre disponible à partir de la version logicielle 6.5 du boîtier télématique)</td>
+<td colspan="1" rowspan="1">Pas de climatisation</td>
+<td colspan="1" rowspan="1">(2)<br>Le boîtier télématique ne gère pas l’affichage de la climatisation</td>
+</tr><tr valign="top"><td colspan="1" rowspan="2"></td>
+<td colspan="1" rowspan="2">Détection de sous gonflage<br>(Paramètre disponible à partir de la version logicielle 6.5 du boîtier télématique)</td>
+<td colspan="1" rowspan="1">Absente</td>
+<td colspan="1" rowspan="1">(1)<br>Contrôler la présence de valve classique (en caoutchouc) sur chaque roue du véhicule ou d’un combiné spécifique affichant les données de détection de sous-gonflage</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Présente directe</td>
+<td colspan="1" rowspan="1">(1)<br>La pression est directement mesurée aux niveaux des roues<br>Contrôler la présence de valve électronique (en métal) sur chaque roue du véhicule</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1"></td>
+<td colspan="1" rowspan="1">Reconnaissance vocale<br>(Paramètre disponible à partir de la version logicielle 6.51 du boîtier télématique)</td>
+<td colspan="1" rowspan="1">Activée</td>
+<td colspan="1" rowspan="1">(2)</td>
+</tr><tr valign="top"><td colspan="1" rowspan="2"></td>
+<td colspan="1" rowspan="2">Motorisation spécifique<br>(Paramètre disponible à partir de la version logicielle 6.51 du boîtier télématique)</td>
+<td colspan="1" rowspan="1">Absente</td>
+<td colspan="1" rowspan="1">(1)<br>Véhicules non "Stop and Start"</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Présente</td>
+<td colspan="1" rowspan="1">(1)<br>Véhicules "stop and start"</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1"></td>
+<td colspan="1" rowspan="1">Volant de direction à commandes centralisées fixes<br>(Paramètre disponible à partir de la version logicielle 6.5 du boîtier télématique)</td>
+<td colspan="1" rowspan="1">Présent</td>
+<td colspan="1" rowspan="1">(2)</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1"></td>
+<td colspan="1" rowspan="1">Alerte survitesse<br>(Paramètre disponible à partir de la version logicielle 6.5 du boîtier télématique)</td>
+<td colspan="1" rowspan="1">Désactivé</td>
+<td colspan="1" rowspan="1">(2)</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1"></td>
+<td colspan="1" rowspan="1">Affichage des alertes et des "zone dangereuse" sur l’écran multifonction<br>(Paramètre disponible à partir de la version logicielle 6.5 du boîtier télématique)</td>
+<td colspan="1" rowspan="1">Affichage activé</td>
+<td colspan="1" rowspan="1">(2)</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1"></td>
+<td colspan="1" rowspan="1">Entrée audio auxiliaire <br>(Paramètre disponible à partir de la version logicielle 6.6 du boîtier télématique)</td>
+<td colspan="1" rowspan="1">Activée</td>
+<td colspan="1" rowspan="1">(2)<br>Contrôler l’absence ou la présence de la connectique audio dans la boîte à gants du véhicule</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1"></td>
+<td colspan="1" rowspan="1">Fonction Bluetooth<br>(Paramètre disponible à partir de la version logicielle 6.5 du boîtier télématique)</td>
+<td colspan="1" rowspan="1">Activé</td>
+<td colspan="1" rowspan="1">(2)</td>
+</tr><tr valign="top"><td colspan="1" rowspan="2"></td>
+<td colspan="1" rowspan="2">Amplificateur Hi-Fi<br>(Paramètre disponible à partir de la version logicielle 6.5 du boîtier télématique)</td>
+<td colspan="1" rowspan="1">Absent </td>
+<td colspan="1" rowspan="1">(1)<br>Contrôler l’absence d’un amplificateur Hi-Fi</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Amplificateur standard</td>
+<td colspan="1" rowspan="1">(1)<br>Contrôler la présence d’un amplificateur Hi-Fi (Présence de 2 connecteurs)</td>
+</tr><tr valign="top"><td colspan="1" rowspan="6"></td>
+<td colspan="1" rowspan="6">Zone géographique d’utilisation<br>(Paramètre disponible à partir de la version logicielle 6.5 du boîtier télématique)</td>
+<td colspan="1" rowspan="1">Europe</td>
+<td colspan="1" rowspan="6">(1)<br>Télécoder suivant la zone principale d’utilisation du véhicule</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">JAPON</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Amérique Latine</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Chine</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Inde</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">USA</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1"></td>
+<td colspan="1" rowspan="1">Asservissement du niveau sonore à la vitesse véhicule<br>(Paramètre disponible à partir de la version logicielle 7.0 du boîtier télématique)</td>
+<td colspan="1" rowspan="1">Activée</td>
+<td colspan="1" rowspan="1">(2)</td>
+</tr><tr valign="top"><td colspan="1" rowspan="2"></td>
+<td colspan="1" rowspan="2">Fonction Fader<br>(Paramètre disponible à partir de la version logicielle 7.0 du boîtier télématique)</td>
+<td colspan="1" rowspan="1">Désactivée</td>
+<td colspan="1" rowspan="2">(1)<br>Selon la présence de haut-parleurs à l’arrière du véhicule</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Activée</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1"></td>
+<td colspan="1" rowspan="1">Bande de fréquence AM<br>(Paramètre disponible à partir de la version logicielle 7.0 du boîtier télématique)</td>
+<td colspan="1" rowspan="1">Activée</td>
+<td colspan="1" rowspan="1">(2)</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1"></td>
+<td colspan="1" rowspan="1">Nombre d’antenne radio<br>(Paramètre disponible à partir de la version logicielle 7.0 du boîtier télématique)</td>
+<td colspan="1" rowspan="1">2</td>
+<td colspan="1" rowspan="1">(2)</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1"></td>
+<td colspan="1" rowspan="1">Niveau sonore de l’aide au stationnement avant<br>(Paramètre disponible à partir de la version logicielle 6.6 du boîtier télématique)</td>
+<td colspan="1" rowspan="1">Volume n°3</td>
+<td colspan="1" rowspan="1">(2)</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1"></td>
+<td colspan="1" rowspan="1">Verrouillage de la touche menu<br>(Paramètre disponible à partir de la version logicielle 6.5 du boîtier télématique)</td>
+<td colspan="1" rowspan="1">Désactivé</td>
+<td colspan="1" rowspan="1">(2)</td>
+</tr></tbody></table>
+</div>
+<div class="par">(1) À télécoder selon équipement.</div><div class="par">(2) Télécodage d’une autre valeur interdit.</div><div class="par">(3) Paramètre télécodé automatiquement lors de la procédure de "choix du plan de maintenance".</div><div class="par">(4) Paramètres à contrôler systématiquement après un télécodage par internet.</div><div class="cha2"><a name="LABEL63"></a><div class="sti2">6.3. Configuration des options d’affichage</div></div>
+<div class="tableau">
+<table class="tableauAC">
+<thead><tr><th class="tete" colspan="4">Configuration des options d’affichage</th></tr></thead>
+<tbody><tr valign="top"><td colspan="1" rowspan="1"></td>
+<td colspan="1" rowspan="1">Paramètre à télécoder</td>
+<td colspan="1" rowspan="1">Valeurs à télécoder</td>
+<td colspan="1" rowspan="1">Commentaires</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1"></td>
+<td colspan="1" rowspan="1">Afficheur escamotable<br>(Paramètre disponible à partir de la version logicielle 7.0 du boîtier télématique)</td>
+<td colspan="1" rowspan="1">Absent </td>
+<td colspan="1" rowspan="1">(2)</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1"></td>
+<td colspan="1" rowspan="1">Affichage de la température extérieure<br>(Paramètre disponible à partir de la version logicielle 6.5 du boîtier télématique)</td>
+<td colspan="1" rowspan="1">Activé</td>
+<td colspan="1" rowspan="1">(2)</td>
+</tr><tr valign="top"><td colspan="1" rowspan="2"></td>
+<td colspan="1" rowspan="2">Affichage de la consigne de navigation au combiné<br>(Paramètre disponible à partir de la version logicielle 6.5 du boîtier télématique)</td>
+<td colspan="1" rowspan="1">Désactivé</td>
+<td colspan="1" rowspan="2">(1)<br>Selon l’affichage des consignes de guidage liées à la navigation vers le combiné ou la vision tête haute</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Activé</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1"></td>
+<td colspan="1" rowspan="1">Menu ordinateur de bord complémentaire<br>(Paramètre disponible à partir de la version logicielle 6.5 du boîtier télématique)</td>
+<td colspan="1" rowspan="1">Désactivé</td>
+<td colspan="1" rowspan="1">(2)</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1"></td>
+<td colspan="1" rowspan="1">Entrée vidéo auxiliaire<br>(Paramètre disponible à partir de la version logicielle 6.5 du boîtier télématique)</td>
+<td colspan="1" rowspan="1">Activée</td>
+<td colspan="1" rowspan="1">(2)</td>
+</tr></tbody></table>
+</div>
+<div class="par">(1) À télécoder selon équipement.</div><div class="par">(2) Télécodage d’une autre valeur interdit.</div><div class="par">(3) Paramètre télécodé automatiquement lors de la procédure de "choix du plan de maintenance".</div><div class="par">(4) Paramètres à contrôler systématiquement après un télécodage par internet.</div><div class="cha2"><a name="LABEL64"></a><div class="sti2">6.4. Configuration du menu de personnalisation</div></div>
+<div class="tableau">
+<table class="tableauAC">
+<thead><tr><th class="tete" colspan="4">Configuration du menu de personnalisation</th></tr></thead>
+<tbody><tr valign="top"><td colspan="1" rowspan="1"></td>
+<td colspan="1" rowspan="1">Paramètre à télécoder</td>
+<td colspan="1" rowspan="1">Valeurs à télécoder</td>
+<td colspan="1" rowspan="1">Commentaires</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1"></td>
+<td colspan="1" rowspan="1">Affichage de l’option "dégagement poste de conduite"<br>(Paramètre disponible à partir de la version logicielle 6.5 du boîtier télématique)</td>
+<td colspan="1" rowspan="1">Désactivé</td>
+<td colspan="1" rowspan="1">(2)</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1"></td>
+<td colspan="1" rowspan="1">Affichage de l’option "Descente partielle des vitres"<br>(Paramètre disponible à partir de la version logicielle 6.5 du boîtier télématique)</td>
+<td colspan="1" rowspan="1">Désactivé</td>
+<td colspan="1" rowspan="1">(2)</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1"></td>
+<td colspan="1" rowspan="1">Affichage de l’option " Aide au dépassement visuelle "<br>(Paramètre disponible à partir de la version logicielle 6.5 du boîtier télématique)</td>
+<td colspan="1" rowspan="1">Désactivé</td>
+<td colspan="1" rowspan="1">(2)</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1"></td>
+<td colspan="1" rowspan="1">Affichage de l’option " Aide au dépassement sonore "<br>(Paramètre disponible à partir de la version logicielle 6.5 du boîtier télématique)</td>
+<td colspan="1" rowspan="1">Désactivé</td>
+<td colspan="1" rowspan="1">(2)</td>
+</tr><tr valign="top"><td colspan="1" rowspan="2"></td>
+<td colspan="1" rowspan="2">Affichage de l’option " enclenchement de l’essuyage arrière en manœuvre de recul "<br>(Paramètre disponible à partir de la version logicielle 6.5 du boîtier télématique)</td>
+<td colspan="1" rowspan="1">Désactivé</td>
+<td colspan="1" rowspan="2">(1)<br>Selon la présence de l’essuie-vitre arrière</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Activé</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1"></td>
+<td colspan="1" rowspan="1">Affichage de l’option "éclairage d’ambiance"<br>(Paramètre disponible à partir de la version logicielle 6.5 du boîtier télématique)</td>
+<td colspan="1" rowspan="1">Activé</td>
+<td colspan="1" rowspan="1">(2)</td>
+</tr><tr valign="top"><td colspan="1" rowspan="2"></td>
+<td colspan="1" rowspan="2">Affichage de l’option " feux diurnes "<br>(Paramètre disponible à partir de la version logicielle 6.5 du boîtier télématique)</td>
+<td colspan="1" rowspan="1">Désactivé</td>
+<td colspan="1" rowspan="2">(1)<br>Selon la présence des feux diurnes</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Activé</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1"></td>
+<td colspan="1" rowspan="1">Affichage de l’option "allumage automatique des feux"<br>(Paramètre disponible à partir de la version logicielle 6.5 du boîtier télématique)</td>
+<td colspan="1" rowspan="1">Désactivé</td>
+<td colspan="1" rowspan="1">(2)</td>
+</tr><tr valign="top"><td colspan="1" rowspan="2"></td>
+<td colspan="1" rowspan="2">Affichage de l’option "éclairage d’accompagnement"<br>(Paramètre disponible à partir de la version logicielle 6.5 du boîtier télématique)</td>
+<td colspan="1" rowspan="1">Désactivé</td>
+<td colspan="1" rowspan="1">(1)<br>Sans éclairage automatique des feux</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Activé</td>
+<td colspan="1" rowspan="1">(1)<br>Avec lampes à décharges</td>
+</tr><tr valign="top"><td colspan="1" rowspan="2"></td>
+<td colspan="1" rowspan="2">Affichage de l’option "éclairage adaptatif"<br>(Paramètre disponible à partir de la version logicielle 6.5 du boîtier télématique)</td>
+<td colspan="1" rowspan="1">Désactivé</td>
+<td colspan="1" rowspan="1">(1)<br>Sans éclairage automatique des feux</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Activé</td>
+<td colspan="1" rowspan="1">(1)<br>Avec lampes à décharges</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1"></td>
+<td colspan="1" rowspan="1">Affichage de l’option " Frein secondaire automatique "<br>(Paramètre disponible à partir de la version logicielle 6.5 du boîtier télématique)</td>
+<td colspan="1" rowspan="1">Activé</td>
+<td colspan="1" rowspan="1">(2)</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1"></td>
+<td colspan="1" rowspan="1">Affichage de l’option " Sélectivité des ouvrants (porte conducteur ou toutes portes) "<br>(Paramètre disponible à partir de la version logicielle 6.5 du boîtier télématique)</td>
+<td colspan="1" rowspan="1">Désactivé</td>
+<td colspan="1" rowspan="1">(2)</td>
+</tr><tr valign="top"><td colspan="1" rowspan="4"></td>
+<td colspan="1" rowspan="4">Affichage de l’option "condamnation permanente du coffre"<br>(Paramètre disponible à partir de la version logicielle 6.5 du boîtier télématique)</td>
+<td colspan="1" rowspan="3">Désactivé</td>
+<td colspan="1" rowspan="1">(1)<br>2 portes</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">(1)<br>3 portes</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">(1)<br>5 portes</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Activé</td>
+<td colspan="1" rowspan="1">(1)<br>4 portes</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1"></td>
+<td colspan="1" rowspan="1">Affichage de l’option "condamnation permanente du coffre"<br>(Paramètre disponible à partir de la version logicielle 6.5 du boîtier télématique)</td>
+<td colspan="1" rowspan="1">Désactivé</td>
+<td colspan="1" rowspan="1">(2)</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1"></td>
+<td colspan="1" rowspan="1">Affichage de l’option "Condamnation des ouvrants à l’éloignement en ADML"<br>(Paramètre disponible à partir de la version logicielle 6.5 du boîtier télématique)</td>
+<td colspan="1" rowspan="1">Désactivé</td>
+<td colspan="1" rowspan="1">(2)</td>
+</tr><tr valign="top"><td colspan="1" rowspan="2"></td>
+<td colspan="1" rowspan="2">Affichage de l’option " détection d’obstacle de proximité visuelle "<br>(Paramètre disponible à partir de la version logicielle 6.5 du boîtier télématique)</td>
+<td colspan="1" rowspan="1">Désactivé</td>
+<td colspan="1" rowspan="1">(1)<br>Sans aide au stationnement</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Activé</td>
+<td colspan="1" rowspan="1">(1)<br>Avec l’aide au stationnement</td>
+</tr><tr valign="top"><td colspan="1" rowspan="2"></td>
+<td colspan="1" rowspan="2">Affichage de l’option " détection d’obstacle de proximité sonore "<br>(Paramètre disponible à partir de la version logicielle 6.5 du boîtier télématique)</td>
+<td colspan="1" rowspan="1">Désactivé</td>
+<td colspan="1" rowspan="1">(1)<br>Sans aide au stationnement</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Activé</td>
+<td colspan="1" rowspan="1">(1)<br>Avec l’aide au stationnement</td>
+</tr></tbody></table>
+</div>
+<div class="par">(1) À télécoder selon équipement.</div><div class="par">(2) Télécodage d’une autre valeur interdit.</div><div class="par">(3) Paramètre télécodé automatiquement lors de la procédure de "choix du plan de maintenance".</div><div class="par">(4) Paramètres à contrôler systématiquement après un télécodage par internet.</div><div class="cha2"><a name="LABEL56"></a><div class="sti2">6.5. Configuration du juke-box</div></div>
+<div class="tableau">
+<table class="tableauAC">
+<thead><tr><th class="tete" colspan="4">Configuration du juke-box</th></tr></thead>
+<tbody><tr valign="top"><td colspan="1" rowspan="1"></td>
+<td colspan="1" rowspan="1">Paramètre à télécoder</td>
+<td colspan="1" rowspan="1">Valeurs à télécoder</td>
+<td colspan="1" rowspan="1">Commentaires</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1"></td>
+<td colspan="1" rowspan="1">Fonction juke-box<br>(Paramètre disponible à partir de la version logicielle 7.0 du boîtier télématique)</td>
+<td colspan="1" rowspan="1">Activé</td>
+<td colspan="1" rowspan="1">(2)</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1"></td>
+<td colspan="1" rowspan="1">Copie de CD MP3<br>(Paramètre disponible à partir de la version logicielle 7.0 du boîtier télématique)</td>
+<td colspan="1" rowspan="1">Autorisé</td>
+<td colspan="1" rowspan="1">(2)</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1"></td>
+<td colspan="1" rowspan="1">Copie de CD audio<br>(Paramètre disponible à partir de la version logicielle 7.0 du boîtier télématique)</td>
+<td colspan="1" rowspan="1">Autorisé</td>
+<td colspan="1" rowspan="1">(2)</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1"></td>
+<td colspan="1" rowspan="1">Fonction MP3 par USB<br>(Paramètre disponible à partir de la version logicielle 7.0 du boîtier télématique)</td>
+<td colspan="1" rowspan="1">Activée</td>
+<td colspan="1" rowspan="1">(2)</td>
+</tr></tbody></table>
+</div>
+<div class="par">(1) À télécoder selon équipement.</div><div class="par">(2) Télécodage d’une autre valeur interdit.</div><div class="par">(3) Paramètre télécodé automatiquement lors de la procédure de "choix du plan de maintenance".</div><div class="par">(4) Paramètres à contrôler systématiquement après un télécodage par internet.</div><div class="cha2"><a name="LABEL65"></a><div class="sti2">6.6. Activation des services d’urgence et d’assistance</div></div>
+<div class="tableau">
+<table class="tableauAC">
+<thead><tr><th class="tete" colspan="4">Activation des services d’urgence et d’assistance</th></tr></thead>
+<tbody><tr valign="top"><td colspan="1" rowspan="1"></td>
+<td colspan="1" rowspan="1">Paramètre à télécoder</td>
+<td colspan="1" rowspan="1">Valeurs à télécoder</td>
+<td colspan="1" rowspan="1">Commentaires</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1"></td>
+<td colspan="1" rowspan="1">Bouton d’appel de dépannage<br>(Paramètre disponible à partir de la version logicielle 6.5 du boîtier télématique)</td>
+<td colspan="1" rowspan="1">Activé</td>
+<td colspan="1" rowspan="1">(2)</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1"></td>
+<td colspan="1" rowspan="1">Bouton d’appel d’urgence<br>(Paramètre disponible à partir de la version logicielle 6.5 du boîtier télématique)</td>
+<td colspan="1" rowspan="1">Activé</td>
+<td colspan="1" rowspan="1">(2)</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1"></td>
+<td colspan="1" rowspan="1">Envoi de SMS pour le service d’appel d’information<br>(Paramètre disponible à partir de la version logicielle 6.5 du boîtier télématique)</td>
+<td colspan="1" rowspan="1">Désactivé</td>
+<td colspan="1" rowspan="1">(2)</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1"></td>
+<td colspan="1" rowspan="1">SMS d’activation des services client<br>(Paramètre disponible à partir de la version logicielle 7.0 du boîtier télématique)</td>
+<td colspan="1" rowspan="1">Désactivé</td>
+<td colspan="1" rowspan="1">(2)</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1"></td>
+<td colspan="1" rowspan="1">Service de télédiagnostic<br>(Paramètre disponible à partir de la version logicielle 6.5 du boîtier télématique)</td>
+<td colspan="1" rowspan="1">Désactivé</td>
+<td colspan="1" rowspan="1">(2)</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1"></td>
+<td colspan="1" rowspan="1">Remontée kilométrique des informations par le télédiagnostic<br>(Paramètre disponible à partir de la version logicielle 6.5 du boîtier télématique)</td>
+<td colspan="1" rowspan="1">15 000 kms</td>
+<td colspan="1" rowspan="1">(2)</td>
+</tr></tbody></table>
+</div>
+<div class="par">(1) À télécoder selon équipement.</div><div class="par">(2) Télécodage d’une autre valeur interdit.</div><div class="par">(3) Paramètre télécodé automatiquement lors de la procédure de "choix du plan de maintenance".</div><div class="par">(4) Paramètres à contrôler systématiquement après un télécodage par internet.</div><div class="cha2"><a name="LABEL66"></a><div class="sti2">6.7. Configuration des autres services</div></div>
+<div class="tableau">
+<table class="tableauAC">
+<thead><tr><th class="tete" colspan="4">Configuration des autres services</th></tr></thead>
+<tbody><tr valign="top"><td colspan="1" rowspan="1"></td>
+<td colspan="1" rowspan="1">Paramètre à télécoder</td>
+<td colspan="1" rowspan="1">Valeurs à télécoder</td>
+<td colspan="1" rowspan="1">Commentaires</td>
+</tr><tr valign="top"><td colspan="1" rowspan="3"></td>
+<td colspan="1" rowspan="3">Numéro de SID Préférentiel<br>(Paramètre disponible à partir de la version logicielle 7.0 du boîtier télématique)</td>
+<td colspan="1" rowspan="1">France</td>
+<td colspan="1" rowspan="3">(1)<br>Télécoder suivant le pays de circulation du véhicule</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Grande Bretagne</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Autres pays</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1"></td>
+<td colspan="1" rowspan="1">Numéro de boîte vocale<br>(Paramètre disponible à partir de la version logicielle 6.5 du boîtier télématique)</td>
+<td colspan="1" rowspan="1">Saisir le numéro </td>
+<td colspan="1" rowspan="1">(1)<br>Télécoder en fonction de l’opérateur de la carte SIM. Il s’agit du numéro utilisé lorsque le client demande l’appel de sa boîte vocale via le menu téléphone</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1"></td>
+<td colspan="1" rowspan="1">Numéro de centre SMS ordinaire<br>(Paramètre disponible à partir de la version logicielle 6.5 du boîtier télématique)</td>
+<td colspan="1" rowspan="1">Saisir le numéro </td>
+<td colspan="1" rowspan="1">(1)<br>Télécoder en fonction de l’opérateur de la carte SIM. Il s’agit du numéro du centre de traitement des SMS utilisé pour l’envoi des SMS</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1"></td>
+<td colspan="1" rowspan="1">Numéro de secours pour l’appel d’urgence<br>(Paramètre disponible à partir de la version logicielle 6.5 du boîtier télématique)</td>
+<td colspan="1" rowspan="1">112</td>
+<td colspan="1" rowspan="1">(2)</td>
+</tr></tbody></table>
+</div>
+<div class="par">(1) À télécoder selon équipement.</div><div class="par">(2) Télécodage d’une autre valeur interdit.</div><div class="par">(3) Paramètre télécodé automatiquement lors de la procédure de "choix du plan de maintenance".</div><div class="par">(4) Paramètres à contrôler systématiquement après un télécodage par internet.</div></div>

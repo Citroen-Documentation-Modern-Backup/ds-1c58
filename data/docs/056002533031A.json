@@ -1,0 +1,28 @@
+{
+ "ref": "056002533031A",
+ "refDisplay": "0560 02 533031A",
+ "title": "DEMARREUR FIXATIONS",
+ "nature": "",
+ "applicability": "",
+ "typDoc": "1",
+ "css": [
+  "css/Document/pr.css"
+ ],
+ "usedBy": [
+  {
+   "ldp": "1C58",
+   "variantKey": "B0D=B0DAF&B0F=B0FCA",
+   "fctId": "FCT0302"
+  },
+  {
+   "ldp": "1C58",
+   "variantKey": "B0D=B0DC5&B0F=B0FCA",
+   "fctId": "FCT0302"
+  },
+  {
+   "ldp": "1C58",
+   "variantKey": "B0D=B0DCL&B0F=B0FCA",
+   "fctId": "FCT0302"
+  }
+ ]
+}

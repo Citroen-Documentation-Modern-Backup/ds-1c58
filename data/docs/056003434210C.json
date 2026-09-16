@@ -1,0 +1,28 @@
+{
+ "ref": "056003434210C",
+ "refDisplay": "0560 03 434210C",
+ "title": "BARRES TORSION AVANT RESSORT",
+ "nature": "",
+ "applicability": " DEPUIS OPR 12244",
+ "typDoc": "1",
+ "css": [
+  "css/Document/pr.css"
+ ],
+ "usedBy": [
+  {
+   "ldp": "1C58",
+   "variantKey": "B0D=B0DAF&B0F=B0FAT",
+   "fctId": "FCT0027"
+  },
+  {
+   "ldp": "1C58",
+   "variantKey": "B0D=B0DC5&B0F=B0FAT",
+   "fctId": "FCT0027"
+  },
+  {
+   "ldp": "1C58",
+   "variantKey": "B0D=B0DCL&B0F=B0FAT",
+   "fctId": "FCT0027"
+  }
+ ]
+}

@@ -1,0 +1,28 @@
+{
+ "ref": "056006236066A",
+ "refDisplay": "0560 06 236066A",
+ "title": "DURIT RACCORD DE REFROIDISSEMENT",
+ "nature": "",
+ "applicability": "BVA AM6C JUSQU’A OPR 12774",
+ "typDoc": "1",
+ "css": [
+  "css/Document/pr.css"
+ ],
+ "usedBy": [
+  {
+   "ldp": "1C58",
+   "variantKey": "B0D=B0DAF&B0F=B0FBB",
+   "fctId": "FCT0009"
+  },
+  {
+   "ldp": "1C58",
+   "variantKey": "B0D=B0DC5&B0F=B0FBB",
+   "fctId": "FCT0009"
+  },
+  {
+   "ldp": "1C58",
+   "variantKey": "B0D=B0DCL&B0F=B0FBB",
+   "fctId": "FCT0009"
+  }
+ ]
+}

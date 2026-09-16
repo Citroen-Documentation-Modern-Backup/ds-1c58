@@ -1,0 +1,18 @@
+{
+ "ref": "056006184850B",
+ "refDisplay": "0560 06 184850B",
+ "title": "ECHAPPEMENT INTERMEDIAIRE ET AR",
+ "nature": "",
+ "applicability": "SANS CHAUFFAGE COMPLEMENTAIRE DEPUIS OPR 12147",
+ "typDoc": "1",
+ "css": [
+  "css/Document/pr.css"
+ ],
+ "usedBy": [
+  {
+   "ldp": "1C58",
+   "variantKey": "B0D=B0DCL&B0F=B0FQ2",
+   "fctId": "FCT0011"
+  }
+ ]
+}

@@ -1,0 +1,23 @@
+{
+ "ref": "056001334443A",
+ "refDisplay": "0560 01 334443A",
+ "title": "LIGNE SECONDAIRE BVM",
+ "nature": "",
+ "applicability": "BVM MCD ET CP 17 X 71 ET BVM PILOTEE 6 RAPPORTS OU BVM MCD ET CP 17 X 71 ET BVM PILOTEE 6 RAPPORTS STT",
+ "typDoc": "1",
+ "css": [
+  "css/Document/pr.css"
+ ],
+ "usedBy": [
+  {
+   "ldp": "1C58",
+   "variantKey": "B0D=B0DAF&B0F=B0FBM",
+   "fctId": "FCT0017"
+  },
+  {
+   "ldp": "1C58",
+   "variantKey": "B0D=B0DCL&B0F=B0FBM",
+   "fctId": "FCT0017"
+  }
+ ]
+}

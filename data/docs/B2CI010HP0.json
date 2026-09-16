@@ -1,0 +1,30 @@
+{
+ "ref": "B2CI010HP0",
+ "refDisplay": "B2CI010HP0",
+ "title": "Vidange  - remplissage -  niveau  : boîte de vitesses automatique ",
+ "nature": "Vidange - remplissage - purge",
+ "applicability": "BVA AL4",
+ "typDoc": "2",
+ "css": [
+  "css/Document/gammes.css",
+  "css/Document/texte.css",
+  "css/Document/common.css"
+ ],
+ "usedBy": [
+  {
+   "ldp": "1C58",
+   "variantKey": "B0D=B0DAF&B0F=B0FAW",
+   "fctId": "FCT0017"
+  },
+  {
+   "ldp": "1C58",
+   "variantKey": "B0D=B0DC5&B0F=B0FAW",
+   "fctId": "FCT0017"
+  },
+  {
+   "ldp": "1C58",
+   "variantKey": "B0D=B0DCL&B0F=B0FAW",
+   "fctId": "FCT0017"
+  }
+ ]
+}

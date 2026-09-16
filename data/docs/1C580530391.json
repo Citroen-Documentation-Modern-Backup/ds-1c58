@@ -1,0 +1,29 @@
+{
+ "ref": "1C580530391",
+ "refDisplay": "1C58 0 53 0391",
+ "title": "TUBE ENTRE CANISTER ET ELECTROVANNE",
+ "nature": "",
+ "applicability": "(K5PM) C4 PICASSO BERLINE FAMILIALE INJECTION EP6 BVM5",
+ "typDoc": "6",
+ "css": [
+  "css/Document/baremes.css",
+  "css/Document/common.css"
+ ],
+ "usedBy": [
+  {
+   "ldp": "1C58",
+   "variantKey": "B0D=B0DAF&B0F=B0FAY",
+   "fctId": "FCT0012"
+  },
+  {
+   "ldp": "1C58",
+   "variantKey": "B0D=B0DC5&B0F=B0FAY",
+   "fctId": "FCT0012"
+  },
+  {
+   "ldp": "1C58",
+   "variantKey": "B0D=B0DCL&B0F=B0FAY",
+   "fctId": "FCT0012"
+  }
+ ]
+}

@@ -1,0 +1,343 @@
+{
+ "ldp": "1C58",
+ "label": "C4 PICASSO",
+ "selectors": [
+  {
+   "id": "B0D",
+   "order": 0,
+   "title": "Silhouette",
+   "selection": "",
+   "values": [
+    {
+     "val": "B0DAF",
+     "lib": "BERLINE FAMILIALE"
+    },
+    {
+     "val": "B0DC5",
+     "lib": "BREAK 5PTES"
+    },
+    {
+     "val": "B0DCL",
+     "lib": "BREAK LOISIRS"
+    }
+   ],
+   "optional": false
+  },
+  {
+   "id": "B0F",
+   "order": 1,
+   "title": "Moteur",
+   "selection": "",
+   "values": [
+    {
+     "val": "B0FBM",
+     "lib": "1.6 HDI (DV6C)"
+    },
+    {
+     "val": "B0FQ2",
+     "lib": "1.6 HDi 110"
+    },
+    {
+     "val": "B0F9W",
+     "lib": "1.6 HDi 110 FAP (DV6TED4)"
+    },
+    {
+     "val": "B0FAW",
+     "lib": "1.6 THP 16v 150"
+    },
+    {
+     "val": "B0FCC",
+     "lib": "1.6 THP 16v 156"
+    },
+    {
+     "val": "B0FCA",
+     "lib": "1.6 VTi 16v 120"
+    },
+    {
+     "val": "B0FAY",
+     "lib": "1.6 VTi 16v 120 (EP6)"
+    },
+    {
+     "val": "B0FCN",
+     "lib": "1.6 VTi 16v 120 (EP6C M)"
+    },
+    {
+     "val": "B0FPA",
+     "lib": "1.8 i 16v 125"
+    },
+    {
+     "val": "B0F9Q",
+     "lib": "2.0 HDi 138 FAP"
+    },
+    {
+     "val": "B0FBB",
+     "lib": "2.0 HDi 150 FAP"
+    },
+    {
+     "val": "B0FAT",
+     "lib": "2.0 i 16v 143"
+    }
+   ],
+   "optional": false
+  }
+ ],
+ "optional": [],
+ "variants": [
+  {
+   "key": "B0D=B0DAF&B0F=B0FBM",
+   "selections": {
+    "B0D": "B0DAF",
+    "B0F": "B0FBM"
+   },
+   "label": "BERLINE FAMILIALE · 1.6 HDI (DV6C)"
+  },
+  {
+   "key": "B0D=B0DAF&B0F=B0FQ2",
+   "selections": {
+    "B0D": "B0DAF",
+    "B0F": "B0FQ2"
+   },
+   "label": "BERLINE FAMILIALE · 1.6 HDi 110"
+  },
+  {
+   "key": "B0D=B0DAF&B0F=B0F9W",
+   "selections": {
+    "B0D": "B0DAF",
+    "B0F": "B0F9W"
+   },
+   "label": "BERLINE FAMILIALE · 1.6 HDi 110 FAP (DV6TED4)"
+  },
+  {
+   "key": "B0D=B0DAF&B0F=B0FAW",
+   "selections": {
+    "B0D": "B0DAF",
+    "B0F": "B0FAW"
+   },
+   "label": "BERLINE FAMILIALE · 1.6 THP 16v 150"
+  },
+  {
+   "key": "B0D=B0DAF&B0F=B0FCC",
+   "selections": {
+    "B0D": "B0DAF",
+    "B0F": "B0FCC"
+   },
+   "label": "BERLINE FAMILIALE · 1.6 THP 16v 156"
+  },
+  {
+   "key": "B0D=B0DAF&B0F=B0FCA",
+   "selections": {
+    "B0D": "B0DAF",
+    "B0F": "B0FCA"
+   },
+   "label": "BERLINE FAMILIALE · 1.6 VTi 16v 120"
+  },
+  {
+   "key": "B0D=B0DAF&B0F=B0FAY",
+   "selections": {
+    "B0D": "B0DAF",
+    "B0F": "B0FAY"
+   },
+   "label": "BERLINE FAMILIALE · 1.6 VTi 16v 120 (EP6)"
+  },
+  {
+   "key": "B0D=B0DAF&B0F=B0FCN",
+   "selections": {
+    "B0D": "B0DAF",
+    "B0F": "B0FCN"
+   },
+   "label": "BERLINE FAMILIALE · 1.6 VTi 16v 120 (EP6C M)"
+  },
+  {
+   "key": "B0D=B0DAF&B0F=B0FPA",
+   "selections": {
+    "B0D": "B0DAF",
+    "B0F": "B0FPA"
+   },
+   "label": "BERLINE FAMILIALE · 1.8 i 16v 125"
+  },
+  {
+   "key": "B0D=B0DAF&B0F=B0F9Q",
+   "selections": {
+    "B0D": "B0DAF",
+    "B0F": "B0F9Q"
+   },
+   "label": "BERLINE FAMILIALE · 2.0 HDi 138 FAP"
+  },
+  {
+   "key": "B0D=B0DAF&B0F=B0FBB",
+   "selections": {
+    "B0D": "B0DAF",
+    "B0F": "B0FBB"
+   },
+   "label": "BERLINE FAMILIALE · 2.0 HDi 150 FAP"
+  },
+  {
+   "key": "B0D=B0DAF&B0F=B0FAT",
+   "selections": {
+    "B0D": "B0DAF",
+    "B0F": "B0FAT"
+   },
+   "label": "BERLINE FAMILIALE · 2.0 i 16v 143"
+  },
+  {
+   "key": "B0D=B0DC5&B0F=B0F9W",
+   "selections": {
+    "B0D": "B0DC5",
+    "B0F": "B0F9W"
+   },
+   "label": "BREAK 5PTES · 1.6 HDi 110 FAP (DV6TED4)"
+  },
+  {
+   "key": "B0D=B0DC5&B0F=B0FAW",
+   "selections": {
+    "B0D": "B0DC5",
+    "B0F": "B0FAW"
+   },
+   "label": "BREAK 5PTES · 1.6 THP 16v 150"
+  },
+  {
+   "key": "B0D=B0DC5&B0F=B0FCA",
+   "selections": {
+    "B0D": "B0DC5",
+    "B0F": "B0FCA"
+   },
+   "label": "BREAK 5PTES · 1.6 VTi 16v 120"
+  },
+  {
+   "key": "B0D=B0DC5&B0F=B0FAY",
+   "selections": {
+    "B0D": "B0DC5",
+    "B0F": "B0FAY"
+   },
+   "label": "BREAK 5PTES · 1.6 VTi 16v 120 (EP6)"
+  },
+  {
+   "key": "B0D=B0DC5&B0F=B0FPA",
+   "selections": {
+    "B0D": "B0DC5",
+    "B0F": "B0FPA"
+   },
+   "label": "BREAK 5PTES · 1.8 i 16v 125"
+  },
+  {
+   "key": "B0D=B0DC5&B0F=B0F9Q",
+   "selections": {
+    "B0D": "B0DC5",
+    "B0F": "B0F9Q"
+   },
+   "label": "BREAK 5PTES · 2.0 HDi 138 FAP"
+  },
+  {
+   "key": "B0D=B0DC5&B0F=B0FBB",
+   "selections": {
+    "B0D": "B0DC5",
+    "B0F": "B0FBB"
+   },
+   "label": "BREAK 5PTES · 2.0 HDi 150 FAP"
+  },
+  {
+   "key": "B0D=B0DC5&B0F=B0FAT",
+   "selections": {
+    "B0D": "B0DC5",
+    "B0F": "B0FAT"
+   },
+   "label": "BREAK 5PTES · 2.0 i 16v 143"
+  },
+  {
+   "key": "B0D=B0DCL&B0F=B0FBM",
+   "selections": {
+    "B0D": "B0DCL",
+    "B0F": "B0FBM"
+   },
+   "label": "BREAK LOISIRS · 1.6 HDI (DV6C)"
+  },
+  {
+   "key": "B0D=B0DCL&B0F=B0FQ2",
+   "selections": {
+    "B0D": "B0DCL",
+    "B0F": "B0FQ2"
+   },
+   "label": "BREAK LOISIRS · 1.6 HDi 110"
+  },
+  {
+   "key": "B0D=B0DCL&B0F=B0F9W",
+   "selections": {
+    "B0D": "B0DCL",
+    "B0F": "B0F9W"
+   },
+   "label": "BREAK LOISIRS · 1.6 HDi 110 FAP (DV6TED4)"
+  },
+  {
+   "key": "B0D=B0DCL&B0F=B0FAW",
+   "selections": {
+    "B0D": "B0DCL",
+    "B0F": "B0FAW"
+   },
+   "label": "BREAK LOISIRS · 1.6 THP 16v 150"
+  },
+  {
+   "key": "B0D=B0DCL&B0F=B0FCC",
+   "selections": {
+    "B0D": "B0DCL",
+    "B0F": "B0FCC"
+   },
+   "label": "BREAK LOISIRS · 1.6 THP 16v 156"
+  },
+  {
+   "key": "B0D=B0DCL&B0F=B0FCA",
+   "selections": {
+    "B0D": "B0DCL",
+    "B0F": "B0FCA"
+   },
+   "label": "BREAK LOISIRS · 1.6 VTi 16v 120"
+  },
+  {
+   "key": "B0D=B0DCL&B0F=B0FAY",
+   "selections": {
+    "B0D": "B0DCL",
+    "B0F": "B0FAY"
+   },
+   "label": "BREAK LOISIRS · 1.6 VTi 16v 120 (EP6)"
+  },
+  {
+   "key": "B0D=B0DCL&B0F=B0FCN",
+   "selections": {
+    "B0D": "B0DCL",
+    "B0F": "B0FCN"
+   },
+   "label": "BREAK LOISIRS · 1.6 VTi 16v 120 (EP6C M)"
+  },
+  {
+   "key": "B0D=B0DCL&B0F=B0FPA",
+   "selections": {
+    "B0D": "B0DCL",
+    "B0F": "B0FPA"
+   },
+   "label": "BREAK LOISIRS · 1.8 i 16v 125"
+  },
+  {
+   "key": "B0D=B0DCL&B0F=B0F9Q",
+   "selections": {
+    "B0D": "B0DCL",
+    "B0F": "B0F9Q"
+   },
+   "label": "BREAK LOISIRS · 2.0 HDi 138 FAP"
+  },
+  {
+   "key": "B0D=B0DCL&B0F=B0FBB",
+   "selections": {
+    "B0D": "B0DCL",
+    "B0F": "B0FBB"
+   },
+   "label": "BREAK LOISIRS · 2.0 HDi 150 FAP"
+  },
+  {
+   "key": "B0D=B0DCL&B0F=B0FAT",
+   "selections": {
+    "B0D": "B0DCL",
+    "B0F": "B0FAT"
+   },
+   "label": "BREAK LOISIRS · 2.0 i 16v 143"
+  }
+ ]
+}

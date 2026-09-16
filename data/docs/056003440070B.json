@@ -1,0 +1,28 @@
+{
+ "ref": "056003440070B",
+ "refDisplay": "0560 03 440070B",
+ "title": "POMPE ASSISTANCE DIRECTION",
+ "nature": "",
+ "applicability": " DEPUIS OPR 12383 JUSQU’A OPR 12592",
+ "typDoc": "1",
+ "css": [
+  "css/Document/pr.css"
+ ],
+ "usedBy": [
+  {
+   "ldp": "1C58",
+   "variantKey": "B0D=B0DAF&B0F=B0F9Q",
+   "fctId": "FCT0339"
+  },
+  {
+   "ldp": "1C58",
+   "variantKey": "B0D=B0DC5&B0F=B0F9Q",
+   "fctId": "FCT0339"
+  },
+  {
+   "ldp": "1C58",
+   "variantKey": "B0D=B0DCL&B0F=B0F9Q",
+   "fctId": "FCT0339"
+  }
+ ]
+}

@@ -1,0 +1,28 @@
+{
+ "ref": "056006236060C",
+ "refDisplay": "0560 06 236060C",
+ "title": "DURIT RACCORD DE REFROIDISSEMENT",
+ "nature": "",
+ "applicability": "BVM PILOTEE 6 RAPPORTS ET AVEC CHAUFFAGE COMPLEMENTAIRE ET PAYS GRAND FROID DEPUIS OPR 11529",
+ "typDoc": "1",
+ "css": [
+  "css/Document/pr.css"
+ ],
+ "usedBy": [
+  {
+   "ldp": "1C58",
+   "variantKey": "B0D=B0DAF&B0F=B0F9Q",
+   "fctId": "FCT0009"
+  },
+  {
+   "ldp": "1C58",
+   "variantKey": "B0D=B0DC5&B0F=B0F9Q",
+   "fctId": "FCT0009"
+  },
+  {
+   "ldp": "1C58",
+   "variantKey": "B0D=B0DCL&B0F=B0F9Q",
+   "fctId": "FCT0009"
+  }
+ ]
+}

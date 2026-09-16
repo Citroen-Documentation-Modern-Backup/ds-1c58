@@ -1,0 +1,25 @@
+{
+ "ref": "B1HG01WHP0",
+ "refDisplay": "B1HG01WHP0",
+ "title": "Dépose - repose : refroidisseur d’air de suralimentation",
+ "nature": "Dépose-pose",
+ "applicability": "",
+ "typDoc": "2",
+ "css": [
+  "css/Document/gammes.css",
+  "css/Document/texte.css",
+  "css/Document/common.css"
+ ],
+ "usedBy": [
+  {
+   "ldp": "1C58",
+   "variantKey": "B0D=B0DAF&B0F=B0FBM",
+   "fctId": "FCT0014"
+  },
+  {
+   "ldp": "1C58",
+   "variantKey": "B0D=B0DCL&B0F=B0FBM",
+   "fctId": "FCT0014"
+  }
+ ]
+}

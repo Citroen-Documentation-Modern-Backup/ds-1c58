@@ -1,0 +1,18 @@
+{
+ "ref": "056003422130B",
+ "refDisplay": "0560 03 422130B",
+ "title": "TRAVERSES SUSP AR BARRES RESSORT",
+ "nature": "",
+ "applicability": "SUSPENSION METALLIQUE DEPUIS OPR 12110",
+ "typDoc": "1",
+ "css": [
+  "css/Document/pr.css"
+ ],
+ "usedBy": [
+  {
+   "ldp": "1C58",
+   "variantKey": "B0D=B0DAF&B0F=B0F9W",
+   "fctId": "FCT0031"
+  }
+ ]
+}

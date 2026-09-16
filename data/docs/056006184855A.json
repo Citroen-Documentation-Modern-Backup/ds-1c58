@@ -1,0 +1,18 @@
+{
+ "ref": "056006184855A",
+ "refDisplay": "0560 06 184855A",
+ "title": "ECHAPPEMENT INTERMEDIAIRE ET AR",
+ "nature": "",
+ "applicability": "SANS CHAUFFAGE COMPLEMENTAIRE JUSQU’A OPR 12146",
+ "typDoc": "1",
+ "css": [
+  "css/Document/pr.css"
+ ],
+ "usedBy": [
+  {
+   "ldp": "1C58",
+   "variantKey": "B0D=B0DAF&B0F=B0FQ2",
+   "fctId": "FCT0011"
+  }
+ ]
+}

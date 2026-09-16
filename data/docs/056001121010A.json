@@ -1,0 +1,28 @@
+{
+ "ref": "056001121010A",
+ "refDisplay": "0560 01 121010A",
+ "title": "VILEBREQUIN",
+ "nature": "",
+ "applicability": "BVM JUSQU’A OPR 11683",
+ "typDoc": "1",
+ "css": [
+  "css/Document/pr.css"
+ ],
+ "usedBy": [
+  {
+   "ldp": "1C58",
+   "variantKey": "B0D=B0DAF&B0F=B0FAT",
+   "fctId": "FCT0005"
+  },
+  {
+   "ldp": "1C58",
+   "variantKey": "B0D=B0DC5&B0F=B0FAT",
+   "fctId": "FCT0005"
+  },
+  {
+   "ldp": "1C58",
+   "variantKey": "B0D=B0DCL&B0F=B0FAT",
+   "fctId": "FCT0005"
+  }
+ ]
+}
